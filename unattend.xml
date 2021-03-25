@@ -4,8 +4,7 @@
         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <TimeZone>Eastern Standard Time</TimeZone>
             <ComputerName>*</ComputerName>
-            <RegisteredOwner>Broward College</RegisteredOwner>
-            <CopyProfile>true</CopyProfile>
+            <RegisteredOwner>The Ether</RegisteredOwner>
         </component>
         <component name="Microsoft-Windows-SQMApi" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <CEIPEnabled>0</CEIPEnabled>
@@ -13,10 +12,8 @@
     </settings>
     <settings pass="oobeSystem" wasPassProcessed="true">
         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <UserAccounts>
-                <AdministratorPassword>*SENSITIVE*DATA*DELETED*</AdministratorPassword>
-            </UserAccounts>
             <TimeZone>Eastern Standard Time</TimeZone>
+            <ProductKey>N69G4-B89J2-4G8F4-WWYCC-J464C</ProductKey>
             <RegisteredOwner>Broward College</RegisteredOwner>
             <OOBE>
                 <VMModeOptimizations>
@@ -29,8 +26,14 @@
                 <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
                 <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
                 <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-                <ProtectYourPC>3</ProtectYourPC>
+                <ProtectYourPC>1</ProtectYourPC>
             </OOBE>
+            <UserAccounts>
+                <AdministratorPassword>
+                    <Value>UABhADEAMQB3AG8AcgBkAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                    <PlainText>false</PlainText>
+                </AdministratorPassword>
+            </UserAccounts>
             <WindowsFeatures>
                 <ShowInternetExplorer>true</ShowInternetExplorer>
                 <ShowMediaCenter>false</ShowMediaCenter>
@@ -52,5 +55,5 @@
             <SkipRearm>0</SkipRearm>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim:c:/users/arahing/desktop/server%202016_eval_1607/sources/install.wim#Windows Server 2016 SERVERSTANDARD" xmlns:cpi="urn:schemas-microsoft-com:cpi"></cpi:offlineImage>
+    <cpi:offlineImage cpi:source="wim:c:/users/working/desktop/server%202016_eval_1607/sources/install.wim#Windows Server 2016 SERVERSTANDARD" xmlns:cpi="urn:schemas-microsoft-com:cpi"></cpi:offlineImage>
 </unattend>
