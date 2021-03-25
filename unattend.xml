@@ -2,7 +2,7 @@
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <settings pass="generalize">
         <component name="Microsoft-Windows-Security-SPP" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <SkipRearm>1</SkipRearm>
+            <SkipRearm>0</SkipRearm>
         </component>
         <component name="Microsoft-Windows-PnpSysprep" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PersistAllDeviceInstalls>true</PersistAllDeviceInstalls>
@@ -17,8 +17,8 @@
             <ComputerName>*</ComputerName>
             <TimeZone>Eastern Standard Time</TimeZone>
             <ProductKey>N69G4-B89J2-4G8F4-WWYCC-J464C</ProductKey>
-            <RegisteredOrganization>Broward College</RegisteredOrganization>
-            <RegisteredOwner>CSIT</RegisteredOwner>
+            <RegisteredOrganization>Ether</RegisteredOrganization>
+            <RegisteredOwner>Ether</RegisteredOwner>
         </component>
     </settings>
     <settings pass="oobeSystem" wasPassProcessed="true">
@@ -37,18 +37,13 @@
                 <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
             </OOBE>
             <UserAccounts>
-                <AdministratorPassword>*SENSITIVE*DATA*DELETED*</AdministratorPassword>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Password>*SENSITIVE*DATA*DELETED*</Password>
-                        <Name>Student</Name>
-                        <DisplayName>Student</DisplayName>
-                        <Group>Administrators</Group>
-                    </LocalAccount>
-                </LocalAccounts>
+                <AdministratorPassword>
+                    <Value>UABhADEAMQB3AG8AcgBkAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                    <PlainText>false</PlainText>
+                </AdministratorPassword>
             </UserAccounts>
-            <RegisteredOwner>CSIT</RegisteredOwner>
-            <RegisteredOrganization>Broward College</RegisteredOrganization>
+            <RegisteredOwner>Ether/RegisteredOwner>
+            <RegisteredOrganization>Ether</RegisteredOrganization>
             <TimeZone>Eastern Standard Time</TimeZone>
         </component>
     </settings>
