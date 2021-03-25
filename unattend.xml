@@ -42,7 +42,7 @@
                     <PlainText>false</PlainText>
                 </AdministratorPassword>
             </UserAccounts>
-            <RegisteredOwner>Ether/RegisteredOwner>
+            <RegisteredOwner>Ether</RegisteredOwner>
             <RegisteredOrganization>Ether</RegisteredOrganization>
             <TimeZone>Eastern Standard Time</TimeZone>
         </component>
